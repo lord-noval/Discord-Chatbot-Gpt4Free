@@ -22,7 +22,7 @@ active_channels = set()
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name="Coded by Mishal#1916"))
+    await bot.change_presence(activity=discord.Game(name="Karol śle całuski."))
     print(f"{bot.user.name} has connected to Discord!")
 
 def generate_response(prompt):
